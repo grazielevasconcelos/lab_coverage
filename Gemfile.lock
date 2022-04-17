@@ -1,0 +1,95 @@
+GIT
+  remote: https://github.com/rspec/rspec-core.git
+  revision: bc9bb2da423b2cf6b7e53f1307c3ef2d24fceb7b
+  branch: main
+  specs:
+    rspec-core (3.12.0.pre)
+      rspec-support (= 3.12.0.pre)
+
+GIT
+  remote: https://github.com/rspec/rspec-expectations.git
+  revision: e5c7164ce3024cf4dfcedf5c1daf38f8779e9549
+  branch: main
+  specs:
+    rspec-expectations (3.12.0.pre)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (= 3.12.0.pre)
+
+GIT
+  remote: https://github.com/rspec/rspec-mocks.git
+  revision: 1611752449b5beefa1939dd2a20beb0175d46110
+  branch: main
+  specs:
+    rspec-mocks (3.12.0.pre)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (= 3.12.0.pre)
+
+GIT
+  remote: https://github.com/rspec/rspec-support.git
+  revision: 5fdadceffbd87962ce3f5152c28e968152d89d30
+  branch: main
+  specs:
+    rspec-support (3.12.0.pre)
+
+GIT
+  remote: https://github.com/rspec/rspec.git
+  revision: f4393df94d8ddde9a0b68ac29b93d09b85ef9025
+  branch: main
+  specs:
+    rspec (3.12.0.pre)
+      rspec-core (= 3.12.0.pre)
+      rspec-expectations (= 3.12.0.pre)
+      rspec-mocks (= 3.12.0.pre)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.4.2)
+    diff-lcs (1.5.0)
+    docile (1.4.0)
+    parallel (1.22.1)
+    parser (3.1.2.0)
+      ast (~> 2.4.1)
+    rainbow (3.1.1)
+    regexp_parser (2.3.0)
+    rexml (3.2.5)
+    rubocop (1.27.0)
+      parallel (~> 1.10)
+      parser (>= 3.1.0.0)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.8, < 3.0)
+      rexml
+      rubocop-ast (>= 1.16.0, < 2.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 3.0)
+    rubocop-ast (1.17.0)
+      parser (>= 3.1.1.0)
+    ruby-progressbar (1.11.0)
+    simplecov (0.21.2)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-html (0.12.3)
+    simplecov-rcov (0.2.3)
+      simplecov (>= 0.4.1)
+    simplecov_json_formatter (0.1.4)
+    unicode-display_width (2.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rspec!
+  rspec-core!
+  rspec-expectations!
+  rspec-mocks!
+  rspec-support!
+  rubocop
+  simplecov
+  simplecov-rcov
+
+RUBY VERSION
+   ruby 2.7.1p83
+
+BUNDLED WITH
+   2.1.4

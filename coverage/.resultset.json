@@ -1,0 +1,103 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/grazielevasconcelos/workspace/lab_coverage/lib/target_1.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null
+        ],
+        "branches": {
+          "[:if, 0, 6, 8, 6, 26]": {
+            "[:then, 1, 6, 8, 6, 17]": 0,
+            "[:else, 2, 6, 8, 6, 26]": 0
+          },
+          "[:if, 3, 4, 6, 7, 9]": {
+            "[:then, 4, 5, 8, 6, 26]": 0,
+            "[:else, 5, 4, 6, 7, 9]": 1
+          }
+        }
+      },
+      "/home/grazielevasconcelos/workspace/lab_coverage/lib/target_2.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ],
+        "branches": {
+          "[:if, 0, 6, 8, 6, 26]": {
+            "[:then, 1, 6, 8, 6, 17]": 1,
+            "[:else, 2, 6, 8, 6, 26]": 0
+          },
+          "[:if, 3, 4, 6, 7, 9]": {
+            "[:then, 4, 5, 8, 6, 26]": 1,
+            "[:else, 5, 4, 6, 7, 9]": 0
+          }
+        }
+      },
+      "/home/grazielevasconcelos/workspace/lab_coverage/lib/target_3.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ],
+        "branches": {
+          "[:if, 0, 6, 8, 6, 26]": {
+            "[:then, 1, 6, 8, 6, 17]": 1,
+            "[:else, 2, 6, 8, 6, 26]": 0
+          },
+          "[:if, 3, 4, 6, 7, 9]": {
+            "[:then, 4, 5, 8, 6, 26]": 1,
+            "[:else, 5, 4, 6, 7, 9]": 1
+          }
+        }
+      },
+      "/home/grazielevasconcelos/workspace/lab_coverage/lib/target_plus.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          3,
+          2,
+          2,
+          null,
+          null,
+          null,
+          null
+        ],
+        "branches": {
+          "[:if, 0, 6, 8, 6, 26]": {
+            "[:then, 1, 6, 8, 6, 17]": 1,
+            "[:else, 2, 6, 8, 6, 26]": 1
+          },
+          "[:if, 3, 4, 6, 7, 9]": {
+            "[:then, 4, 5, 8, 6, 26]": 2,
+            "[:else, 5, 4, 6, 7, 9]": 1
+          }
+        }
+      }
+    },
+    "timestamp": 1650167837
+  }
+}
